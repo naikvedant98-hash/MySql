@@ -1,0 +1,24 @@
+---------------------- ALTER | UPDATE ------------------------------------
+
+-- ADD COLUMN
+
+ALTER TABLE DEMO ADD DEMOCOLUMN INT; 
+
+
+-- UPDATE ----------------------------------------
+
+-- ADD SAME VALUE -----------------------------------
+
+UPDATE DEMO SET DEMOCOLUMN = 654563 
+
+
+-- ADD CONDITION BASE VALUE -------------------------
+
+UPDATE DEMO SET DEMOCOLUMN = 0 WHERE ENG > 85
+
+
+----- DELETE COLUMN -------------------------------
+
+ALTER TABLE DEMO DROP COLUMN DEMOCOLUMN;
+
+---------------------------------------------------------------------
